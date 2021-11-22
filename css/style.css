@@ -1,0 +1,440 @@
+/*start header*/
+
+header {
+    background-image: url(../images/black_and_white_car_vehicle_vi.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/*start navbar*/
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar .navbar-brand i {
+    font-size: 60px;
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    color: #161512;
+}
+
+.navbar .navbar-brand h4 {
+    color: #161512;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-left: 80px;
+}
+
+.navbar .navbar-brand span {
+    color: #7e0302;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 100px;
+    line-height: 1px;
+}
+
+.navbar ul li a {
+    color: #1f1f1e;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+    transition: color 1.2s ease-in-out;
+}
+
+.navbar ul .active a {
+    color: #7e0302;
+}
+
+.navbar ul li a:hover {
+    color: #7e0302;
+}
+
+
+/*end navbar*/
+
+
+/*end header*/
+
+
+/*start section info*/
+
+.info {
+    background-color: #d30000;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.info .Mechanics,
+.Accessories {
+    border-right: 3px solid white;
+}
+
+.info h3 {
+    padding-bottom: 10px;
+    font-size: 27px;
+}
+
+.info p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@media (max-width:767px) {
+    .info .Mechanics,
+    .Accessories {
+        border-right: none;
+        border-bottom: 2px solid white;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*end section info*/
+
+
+/*start section visit-us*/
+
+.visit-us {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.visit-us .come {
+    margin-top: 70px;
+}
+
+.visit-us .come h2 {
+    color: #505050;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.visit-us .come p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 1px 70px;
+}
+
+.visit-us .book h1 {
+    background-color: #d30000;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.visit-us .book img {
+    width: 100%;
+}
+
+
+/*end section visit-us*/
+
+
+/*start section offering*/
+
+.offering {
+    background-color: #e4e4b1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.offering h2 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.offering p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.offering .solution i {
+    font-size: 50px;
+    color: #d30000;
+    line-height: 70px;
+}
+
+.offering .solution h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.offering .solution p {
+    font-size: 14px;
+}
+
+
+/*end section offering*/
+
+
+/*start section brands*/
+
+.brands {
+    padding-top: 45px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.brands h2 {
+    font-size: 45px;
+    font-weight: 650;
+    margin-bottom: 50px;
+}
+
+
+/*end section brands*/
+
+
+/*start section about us*/
+
+.about h2 {
+    font-size: 50px;
+    color: #1e1e1e;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.about h3 {
+    background-color: #d30000;
+    color: white;
+    padding: 3px;
+    width: 58%;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 92px;
+}
+
+
+/*end section about us*/
+
+
+/*start section services*/
+
+.services {
+    margin-top: 20px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #e4e4b1;
+}
+
+.services h2 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.services .icons i {
+    color: #7e0302;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.services .icons h5 {
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.services .icons p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/*end section services*/
+
+
+/*start section insurance*/
+
+.insurance {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.insurance h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+/*end section insurance*/
+
+
+/*start section contact*/
+
+.contact {
+    background-color: #e4e4b1;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    color: #1d1d1d;
+}
+
+.contact h2 {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 45px;
+    font-weight: 640;
+}
+
+.contact .labels h6 {
+    font-size: 21px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact .labels p {
+    line-height: 13px;
+}
+
+.contact .fields input {
+    border: 2px solid #636363;
+}
+
+.contact .fields textarea {
+    border: 2px solid #636363;
+    height: 180px;
+}
+
+.contact .fields button {
+    background-color: #d30000;
+    color: white;
+    border: 1px solid #d30000;
+    border-radius: 2px;
+    float: right;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact .fields button:hover {
+    background-color: #7e0302;
+    border: 1px solid #7e0302;
+}
+
+
+/*end section contact*/
+
+
+/*start section top-footer*/
+
+.top-footer {
+    background-color: #d30000;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.top-footer i,
+h6 {
+    display: inline-block;
+}
+
+.top-footer i {
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+.top-footer h6 {
+    font-size: 25px;
+    font-weight: 640;
+    margin-bottom: 20px;
+}
+
+.top-footer .call,
+.mail {
+    border-right: 3px solid white;
+}
+
+.top-footer p {
+    font-weight: 600;
+}
+
+.top-footer p span {
+    font-weight: 400;
+}
+
+
+/*end section top-footer*/
+
+
+/*start footer*/
+
+footer {
+    background-color: #404040;
+    color: white;
+    font-size: 17px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border: 1px solid #404040;
+}
+
+footer a {
+    color: white;
+    line-height: 30px;
+    transition: all 1s ease-in-out;
+}
+
+footer a:hover {
+    color: #7e0302;
+    text-decoration: none;
+}
+
+footer input {
+    background: none;
+    color: white;
+    border: 1px solid #919191;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px;
+}
+
+footer button {
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 40px;
+    height: 42px;
+    color: #7cc1fc;
+    transition: all 2s ease-in-out;
+}
+
+footer button i {
+    font-size: 12px;
+    transform: rotate(-135deg);
+    padding-left: 5px;
+}
+
+footer button:hover {
+    background-color: #7e0302;
+    border: 1px solid #7e0302;
+    color: white;
+}
+
+
+/*end footer*/
